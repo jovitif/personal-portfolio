@@ -7,15 +7,21 @@ export function Experience() {
 
   const experiences = [
     {
+  title: "fullStackJunior",
+  company: "Dunnas",
+  period: "current",
+  description: "dunnasDesc",
+},
+    {
       title: "fullStackIntern",
       company: "prefeitura",
-      period: "ongoing",
+      period: "completed",
       description: "prefeituraDesc",
     },
     {
       title: "researchScholarship",
       company: "higiaWay",
-      period: "ongoing",
+      period: "completed",
       description: "higiaWayDesc",
     },
     {

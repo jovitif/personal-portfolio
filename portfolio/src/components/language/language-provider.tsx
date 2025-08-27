@@ -11,6 +11,16 @@ type Translations = {
 
 // Define all translations here
 const translations: Translations = {
+    fullStackJunior: {
+    en: "Full Stack Developer Junior",
+    pt: "Desenvolvedor Full Stack Júnior",
+    es: "Desarrollador Full Stack Junior"
+  },
+    dunnasDesc: {
+    en: "Currently working at Dunnas, a company that provides software services for multiple businesses across Brazil. Responsible for developing complete projects in Ruby on Rails for Dunnas itself, as well as handling projects from Sinqia using Java and SQL Server.",
+    pt: "Atualmente trabalhando na Dunnas, empresa que presta serviços de software para diversas empresas no Brasil. Responsável por desenvolver projetos completos em Ruby on Rails para a própria Dunnas, além de atuar em projetos da Sinqia utilizando Java e SQL Server.",
+    es: "Actualmente trabajando en Dunnas, una empresa que brinda servicios de software a varias empresas en Brasil. Responsable de desarrollar proyectos completos en Ruby on Rails para la propia Dunnas, además de trabajar en proyectos de Sinqia utilizando Java y SQL Server."
+  },
   // Navbar
   portfolio: {
     en: "Portfolio",
@@ -23,16 +33,16 @@ const translations: Translations = {
     pt: "Sobre Mim",
     es: "Sobre Mí"
   },
-  aboutText: {
-    en: "I am a Software Engineer with experience in developing web and mobile applications that leverage artificial intelligence. I have worked on projects, including initiatives for my city's municipality, showcasing practical applications of AI. Additionally, I have strong knowledge of cloud technologies, enabling scalable and efficient solutions.",
-    pt: "Sou um Engenheiro de Software com experiência no desenvolvimento de aplicações web e mobile que aproveitam inteligência artificial. Trabalhei em projetos, incluindo iniciativas para a prefeitura da minha cidade, demonstrando aplicações práticas de IA. Além disso, possuo sólido conhecimento em tecnologias de nuvem, permitindo soluções escaláveis e eficientes.",
-    es: "Soy un Ingeniero de Software con experiencia en el desarrollo de aplicaciones web y móviles que aprovechan la inteligencia artificial. He trabajado en proyectos, incluyendo iniciativas para el municipio de mi ciudad, mostrando aplicaciones prácticas de IA. Además, tengo un sólido conocimiento de tecnologías en la nube, permitiendo soluções escalables y eficientes."
-  },
-  title: {
-    en: "Software Engineer",
-    pt: "Engenheiro de Software",
-    es: "Ingeniero de Software"
-  },
+aboutText: {
+  en: "I am a Software Developer with experience in developing web and mobile applications that leverage artificial intelligence. I have worked on projects, including initiatives for my city's municipality, showcasing practical applications of AI. Additionally, I have strong knowledge of cloud technologies, enabling scalable and efficient solutions.",
+  pt: "Sou um Desenvolvedor de Software com experiência no desenvolvimento de aplicações web e mobile que aproveitam inteligência artificial. Trabalhei em projetos, incluindo iniciativas para a prefeitura da minha cidade, demonstrando aplicações práticas de IA. Além disso, possuo sólido conhecimento em tecnologias de nuvem, permitindo soluções escaláveis e eficientes.",
+  es: "Soy un Desarrollador de Software con experiencia en el desarrollo de aplicaciones web y móviles que aprovechan la inteligencia artificial. He trabajado en proyectos, incluyendo iniciativas para el municipio de mi ciudad, mostrando aplicaciones prácticas de IA. Además, tengo un sólido conocimiento de tecnologías en la nube, permitiendo soluciones escalables y eficientes."
+},
+title: {
+  en: "Software Developer",
+  pt: "Desenvolvedor de Software",
+  es: "Desarrollador de Software"
+},
   degree: {
     en: "Bachelor's Degree in Computer Science",
     pt: "Bacharel em Ciência da Computação",
@@ -81,6 +91,7 @@ const translations: Translations = {
     es: "Intermedio"
   },
   // Experience
+  
   fullStackIntern: {
     en: "Full Stack Developer Intern",
     pt: "Estagiário Desenvolvedor Full Stack",
@@ -113,7 +124,42 @@ prefeituraDesc: {
 - Colaboración en el desarrollo de la función de inclusión para Mossoró Cidade Junina, el evento cultural más popular de la ciudad, con Ruby on Rails.\n
 - Desarrollo de una herramienta ETL personalizada con Django y React.js para optimizar procesos de migración de datos gubernamentales.`,
 },
-
+  programmingLanguages: {
+    en: "Programming Languages",
+    pt: "Linguagens de Programação",
+    es: "Lenguajes de Programación"
+  },
+  frameworks: {
+    en: "Frameworks",
+    pt: "Frameworks",
+    es: "Frameworks"
+  },
+  databases: {
+    en: "Databases",
+    pt: "Bancos de Dados",
+    es: "Bases de Datos"
+  },
+  tools: {
+    en: "Tools",
+    pt: "Ferramentas",
+    es: "Herramientas"
+  },
+  Java: {
+    en: "Java",
+    pt: "Java",
+    es: "Java"
+  },
+  Spring: {
+    en: "Spring",
+    pt: "Spring",
+    es: "Spring"
+  },
+  "SQL Server": {
+    en: "SQL Server",
+    pt: "SQL Server",
+    es: "SQL Server"
+  }
+,
   researchScholarship: {
     en: "Research Scholarship",
     pt: "Bolsista de Pesquisa",
