@@ -1,8 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "../language/language-provider";
 
-import { FaPython, FaNodeJs, FaAws, FaReact, FaJava } from "react-icons/fa";
-import { SiPostgresql, SiSpring, SiN8N, SiRubyonrails, SiReactivex } from "react-icons/si";
+import { FaPython, FaNodeJs, FaAws, FaReact, FaJava, FaServer, FaExchangeAlt, FaDatabase, FaMobileAlt, FaCogs, FaRobot, FaBrain } from "react-icons/fa";
+import { SiPostgresql, SiSpring, SiN8N, SiRubyonrails, SiReactivex, SiTypescript, SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { TbBrandCpp } from "react-icons/tb";
 import { DiMsqlServer } from "react-icons/di";
@@ -13,24 +13,32 @@ export function Skills() {
   const categories = [
     {
       name: "programmingLanguages",
-      items: [
-        { name: "Python", level: "advanced", icon: FaPython },
-        { name: "Java", level: "intermediate", icon: FaJava },
-        { name: "JavaScript", level: "intermediate", icon: FaReact },
-        { name: "TypeScript", level: "intermediate", icon: FaReact },
-        { name: "Ruby", level: "intermediate", icon: SiRubyonrails },
-      ]
+items: [
+  { name: "TypeScript", level: "intermediate", icon: SiTypescript },
+  { name: "Node.js", level: "intermediate", icon: FaNodeJs },
+  { name: "React", level: "intermediate", icon: FaReact },
+  { name: "PostgreSQL", level: "intermediate", icon: SiPostgresql },
+],
     },
     {
       name: "frameworks",
       items: [
-        { name: "Node.js", level: "advanced", icon: FaNodeJs },
-        { name: "Django", level: "intermediate", icon: FaPython },
-        { name: "React.js", level: "intermediate", icon: FaReact },
-        { name: "React Native", level: "intermediate", icon: SiReactivex },
-        { name: "Ruby on Rails", level: "intermediate", icon: SiRubyonrails },
-        { name: "Spring", level: "intermediate", icon: SiSpring },
-      ]
+  { name: "Node.js", level: "advanced", icon: FaNodeJs },
+  { name: "REST APIs", level: "advanced", icon: FaServer },
+  { name: "Integrações", level: "intermediate", icon: FaExchangeAlt },
+  { name: "ETL", level: "intermediate", icon: FaDatabase },
+]
+    },
+     {
+      name: "frontend",
+      items: [
+
+  { name: "React", level: "advanced", icon: FaReact },
+  { name: "Tailwind CSS", level: "intermediate", icon: SiTailwindcss },
+  { name: "Interfaces Responsivas", level: "intermediate", icon: FaMobileAlt
+    
+   },
+]
     },
     {
       name: "databases",
@@ -42,9 +50,11 @@ export function Skills() {
     {
       name: "tools",
       items: [
-        { name: "AWS", level: "intermediate", icon: FaAws },
-        { name: "n8n", level: "advanced", icon: SiN8N },
-      ]
+  { name: "Automação de processos", level: "advanced", icon: FaCogs },
+  { name: "Chatbots", level: "advanced", icon: FaRobot },
+  { name: "Integração com APIs de IA", level: "advanced", icon: FaBrain },
+  { name: "n8n", level: "advanced", icon: SiN8N },
+]
     }
   ];
 

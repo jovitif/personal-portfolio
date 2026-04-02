@@ -16,11 +16,13 @@ const translations: Translations = {
     pt: "Desenvolvedor Full Stack Júnior",
     es: "Desarrollador Full Stack Junior"
   },
-    dunnasDesc: {
-    en: "Currently working at Dunnas, a company that provides software services for multiple businesses across Brazil. Responsible for developing complete projects in Ruby on Rails for Dunnas itself, as well as handling projects from Sinqia using Java and SQL Server.",
-    pt: "Atualmente trabalhando na Dunnas, empresa que presta serviços de software para diversas empresas no Brasil. Responsável por desenvolver projetos completos em Ruby on Rails para a própria Dunnas, além de atuar em projetos da Sinqia utilizando Java e SQL Server.",
-    es: "Actualmente trabajando en Dunnas, una empresa que brinda servicios de software a varias empresas en Brasil. Responsable de desarrollar proyectos completos en Ruby on Rails para la propia Dunnas, además de trabajar en proyectos de Sinqia utilizando Java y SQL Server."
-  },
+dunnasDesc: {
+  en: "Development of customizations for banking systems, serving multiple clients. Implementation of features using Java, JavaFX, and SQL Server. Experience working in agile environments (Scrum), participating in planning, refinement, and continuous delivery. Collaboration in the maintenance and evolution of critical systems.",
+  
+  pt: "Desenvolvimento de customizações para sistemas do setor bancário, atendendo múltiplos clientes. Implementação de funcionalidades utilizando Java, JavaFX e SQL Server. Atuação em ambiente ágil (Scrum), participando de planejamento, refinamento e entregas contínuas. Colaboração na manutenção e evolução de sistemas críticos.",
+  
+  es: "Desarrollo de personalizaciones para sistemas del sector bancario, atendiendo a múltiples clientes. Implementación de funcionalidades utilizando Java, JavaFX y SQL Server. Experiencia en entornos ágiles (Scrum), participando en planificación, refinamiento y entregas continuas. Colaboración en el mantenimiento y evolución de sistemas críticos."
+},
   // Navbar
   portfolio: {
     en: "Portfolio",
@@ -34,24 +36,26 @@ const translations: Translations = {
     es: "Sobre Mí"
   },
 aboutText: {
-  en: "I am a Software Developer with experience in developing web and mobile applications that leverage artificial intelligence. I have worked on projects, including initiatives for my city's municipality, showcasing practical applications of AI. Additionally, I have strong knowledge of cloud technologies, enabling scalable and efficient solutions.",
-  pt: "Sou um Desenvolvedor de Software com experiência no desenvolvimento de aplicações web e mobile que aproveitam inteligência artificial. Trabalhei em projetos, incluindo iniciativas para a prefeitura da minha cidade, demonstrando aplicações práticas de IA. Além disso, possuo sólido conhecimento em tecnologias de nuvem, permitindo soluções escaláveis e eficientes.",
-  es: "Soy un Desarrollador de Software con experiencia en el desarrollo de aplicaciones web y móviles que aprovechan la inteligencia artificial. He trabajado en proyectos, incluyendo iniciativas para el municipio de mi ciudad, mostrando aplicaciones prácticas de IA. Además, tengo un sólido conocimiento de tecnologías en la nube, permitiendo soluciones escalables y eficientes."
+  en: "Software Engineer with experience in developing full-stack web applications and AI integrations, working on real-world projects across public, academic, and financial sectors. Experienced in building systems using Node.js, React, and TypeScript, as well as working with automation, chatbots, and ETL tools. Familiar with agile environments (Scrum), focusing on delivering efficient, scalable solutions to real-world problems.",
+  
+  pt: "Engenheiro de Software com experiência no desenvolvimento de aplicações web full-stack e integrações com inteligência artificial, atuando em projetos reais nos setores público, acadêmico e financeiro. Possuo vivência na construção de sistemas utilizando Node.js, React e TypeScript, além de experiência com automações, chatbots e ferramentas de ETL. Atuo em ambientes ágeis (Scrum), com foco na criação de soluções eficientes, escaláveis e orientadas a problemas reais.",
+  
+  es: "Ingeniero de Software con experiencia en el desarrollo de aplicaciones web full-stack e integraciones con inteligencia artificial, participando en proyectos reales en los sectores público, académico y financiero. Experiencia en la construcción de sistemas utilizando Node.js, React y TypeScript, además de trabajar con automatizaciones, chatbots y herramientas de ETL. Trabajo en entornos ágiles (Scrum), enfocado en crear soluciones eficientes, escalables y orientadas a problemas reales."
 },
 title: {
-  en: "Software Developer",
-  pt: "Desenvolvedor de Software",
-  es: "Desarrollador de Software"
+  en: "Software Engineer | Full-Stack (Node.js, React, TypeScript) | AI and Data Integrations",
+  pt: "Engenheiro de Software | Full-Stack (Node.js, React, TypeScript) | Integrações com IA e Dados",
+  es: "Ingeniero de Software | Full-Stack (Node.js, React, TypeScript) | Integraciones con IA y Datos"
 },
-  degree: {
-    en: "Bachelor's Degree in Computer Science",
-    pt: "Bacharel em Ciência da Computação",
-    es: "Licenciatura en Ciencias de la Computación"
-  },
+degree: {
+  en: "B.Sc. in Computer Science",
+  pt: "Bacharel em Ciência da Computação",
+  es: "Grado en Ciencias de la Computación"
+},
   location: {
-    en: "Mossoró, Rio Grande do Norte, Brazil",
-    pt: "Mossoró, Rio Grande do Norte, Brasil",
-    es: "Mossoró, Rio Grande do Norte, Brasil"
+    en: "Brazil | Open to Remote Work",
+    pt: "Brasil | Disponível para trabalho remoto",
+    es: "Brasil | Disponible para oportunidades remotas"
   },
   downloadResume: {
     en: "Download Resume",
@@ -108,42 +112,37 @@ title: {
     es: "En curso"
   },
 prefeituraDesc: {
-  en: `Interned as a full-stack developer at the City Hall of Mossoró, contributing to various projects:\n
-- Developed and maintained Codex, an internal training platform and project showcase built with Ruby on Rails and React.js.\n
-- Created a Python script to assist data migration from an old SQL Server system to PostgreSQL for the HR system.\n
-- Helped develop the inclusion feature for Mossoró Cidade Junina, the city’s most popular cultural event, using Ruby on Rails.\n
-- Built a custom ETL tool with Django and React.js to streamline government data migration processes.`,
-  pt: `Estágio como desenvolvedor full-stack na Prefeitura de Mossoró, atuando em diversos projetos:\n
-- Desenvolvimento e manutenção do Codex, plataforma interna de treinamento e vitrine de projetos, utilizando Ruby on Rails e React.js.\n
-- Criação de script em Python para auxiliar na migração de dados do sistema antigo em SQL Server para PostgreSQL, no sistema de RH.\n
-- Colaboração no desenvolvimento da funcionalidade de inclusão para o Mossoró Cidade Junina, evento cultural mais popular da cidade, usando Ruby on Rails.\n
-- Desenvolvimento de ferramenta ETL personalizada com Django e React.js para otimizar processos de migração de dados governamentais.`,
-  es: `Prácticas como desarrollador full-stack en el Ayuntamiento de Mossoró, participando en varios proyectos:\n
-- Desarrollo y mantenimiento de Codex, plataforma interna de capacitación y vitrina de proyectos, usando Ruby on Rails y React.js.\n
-- Creación de un script en Python para ayudar en la migración de datos del sistema antiguo en SQL Server a PostgreSQL, para el sistema de RRHH.\n
-- Colaboración en el desarrollo de la función de inclusión para Mossoró Cidade Junina, el evento cultural más popular de la ciudad, con Ruby on Rails.\n
-- Desarrollo de una herramienta ETL personalizada con Django y React.js para optimizar procesos de migración de datos gubernamentales.`,
+  en: "Development of web applications using React.js (frontend) and Ruby on Rails (backend). Implementation of responsive interfaces and secure APIs for municipal systems. Development of an ETL tool using Python (Django) for data migration automation. Handling and integration of structured data (JSON, SQL).",
+  
+  pt: "Desenvolvimento de aplicações web com React.js (frontend) e Ruby on Rails (backend). Implementação de interfaces responsivas e APIs seguras para sistemas municipais. Desenvolvimento de ferramenta de ETL utilizando Python (Django) para automação de migração de dados. Manipulação e integração de dados estruturados (JSON, SQL).",
+  
+  es: "Desarrollo de aplicaciones web utilizando React.js (frontend) y Ruby on Rails (backend). Implementación de interfaces responsivas y APIs seguras para sistemas municipales. Desarrollo de una herramienta ETL utilizando Python (Django) para la automatización de migración de datos. Manipulación e integración de datos estructurados (JSON, SQL)."
 },
-  programmingLanguages: {
-    en: "Programming Languages",
-    pt: "Linguagens de Programação",
-    es: "Lenguajes de Programación"
-  },
-  frameworks: {
-    en: "Frameworks",
-    pt: "Frameworks",
-    es: "Frameworks"
-  },
+programmingLanguages: {
+  en: "Core Technologies",
+  pt: "Tecnologias Principais",
+  es: "Tecnologías Principales"
+},
+frameworks: {
+  en: "Backend Development",
+  pt: "Desenvolvimento Backend",
+  es: "Desarrollo Backend"
+},
+frontend: {
+  en: "Frontend Development",
+  pt: "Desenvolvimento Frontend",
+  es: "Desarrollo Frontend"
+},
   databases: {
     en: "Databases",
     pt: "Bancos de Dados",
     es: "Bases de Datos"
   },
-  tools: {
-    en: "Tools",
-    pt: "Ferramentas",
-    es: "Herramientas"
-  },
+tools: {
+  en: "Integrations and AI",
+  pt: "Integrações e IA",
+  es: "Integraciones e IA"
+},
   Java: {
     en: "Java",
     pt: "Java",
@@ -170,26 +169,13 @@ prefeituraDesc: {
     pt: "Projeto Higia Way",
     es: "Proyecto Higia Way"
   },
- higiaWayDesc: {
-  en: `Contributed to the development of an AI assistant designed to support pregnant women in their daily routines. Key contributions included:\n
-- Assisted in debugging and maintaining the clinic's legacy system built with Node.js and React.js.\n
-- Helped recover and repopulate lost data following a VM migration.\n
-- Gathered requirements and researched technologies for developing an intelligent agent to assist pregnant women.\n
-- Supported the development of a chatbot using n8n, integrating it with the clinic's frontend and backend.`,
-
-  pt: `Contribuiu para o desenvolvimento de um assistente de IA projetado para apoiar mulheres grávidas em suas rotinas diárias. Principais contribuições:\n
-- Auxiliou na correção de bugs e manutenção do sistema legado da clínica, desenvolvido com Node.js e React.js.\n
-- Ajudou no processo de recuperação e povoamento dos dados perdidos após uma migração de VM.\n
-- Realizou o levantamento de requisitos e pesquisa de tecnologias para o desenvolvimento de um agente inteligente para auxiliar gestantes.\n
-- Colaborou no desenvolvimento do chatbot utilizando n8n, integrando-o ao frontend e backend da clínica.`,
-
-  es: `Contribuyó al desarrollo de un asistente de IA diseñado para apoyar a mujeres embarazadas en sus rutinas diarias. Contribuciones clave:\n
-- Ayudó en la corrección de errores y mantenimiento del sistema heredado de la clínica, desarrollado con Node.js y React.js.\n
-- Colaboró en la recuperación y repoblación de datos perdidos tras una migración de VM.\n
-- Realizó levantamiento de requisitos e investigación de tecnologías para el desarrollo de un agente inteligente para asistir a mujeres embarazadas.\n
-- Participó en el desarrollo del chatbot usando n8n, integrándolo con el frontend y backend de la clínica.`
+higiaWayDesc: {
+  en: "Development of a chatbot for a healthcare application using Node.js, React.js, and n8n. Implementation of automations and integrations to enhance system intelligence. Maintenance and bug fixing in web applications.",
+  
+  pt: "Desenvolvimento de chatbot para aplicação de saúde utilizando Node.js, React.js e n8n. Implementação de automações e integrações para aprimorar a inteligência do sistema. Manutenção e correção de bugs em aplicações web.",
+  
+  es: "Desarrollo de un chatbot para una aplicación de salud utilizando Node.js, React.js y n8n. Implementación de automatizaciones e integraciones para mejorar la inteligencia del sistema. Mantenimiento y corrección de errores en aplicaciones web."
 },
-
   volunteerDeveloper: {
     en: "Volunteer Developer",
     pt: "Desenvolvedor Voluntário",
@@ -205,11 +191,13 @@ prefeituraDesc: {
     pt: "Concluído",
     es: "Completado"
   },
-  languageLearningAppDesc: {
-    en: "Contributed to the development of an AI-powered micro-SaaS language learning app, focusing on user engagement features and advanced natural language processing. Helped build a scalable solution for immersive and personalized language acquisition.",
-    pt: "Contribuiu para o desenvolvimento de um aplicativo micro-SaaS de aprendizado de idiomas com IA, com foco em recursos de engajamento do usuário e processamento avançado de linguagem natural. Ajudou a construir uma solução escalável para aquisição de idiomas imersiva e personalizada.",
-    es: "Contribuyó al desarrollo de una aplicación micro-SaaS de aprendizaje de idiomas impulsada por IA, centrándose en funciones de compromiso del usuario y procesamiento avanzado del lenguaje natural. Ayudó a construir una solución escalable para la adquisición inmersiva y personalizada de idiomas."
-  },
+languageLearningAppDesc: {
+  en: "Development of an English learning application using Flutter and Firebase. Integration of artificial intelligence to personalize the user experience. Hands-on experience with mobile development and API integrations.",
+  
+  pt: "Desenvolvimento de aplicativo de aprendizado de inglês com Flutter e Firebase. Integração de inteligência artificial para personalização da experiência do usuário. Experiência prática com desenvolvimento mobile e integração de APIs.",
+  
+  es: "Desarrollo de una aplicación de aprendizaje de inglés utilizando Flutter y Firebase. Integración de inteligencia artificial para personalizar la experiencia del usuario. Experiencia práctica en desarrollo móvil e integración de APIs."
+},
   intern: {
     en: "Intern",
     pt: "Estagiário",
@@ -220,11 +208,13 @@ prefeituraDesc: {
     pt: "Compass UOL",
     es: "Compass UOL"
   },
-  compassUolDesc: {
-    en: "Acquired hands-on experience with machine learning techniques using AWS and earned the AWS Cloud Practitioner certification. Contributed to developing an application for tracking lost animals.",
-    pt: "Adquiriu experiência prática com técnicas de machine learning usando AWS e obteve a certificação AWS Cloud Practitioner. Contribuiu para o desenvolvimento de um aplicativo para rastreamento de animais perdidos.",
-    es: "Adquirió experiencia práctica con técnicas de aprendizaje automático utilizando AWS y obtuvo la certificación AWS Cloud Practitioner. Contribuyó al desarrollo de una aplicación para rastrear animales perdidos."
-  },
+compassUolDesc: {
+  en: "Experience working with cloud computing services and serverless solutions on AWS. Development of APIs and integration with cognitive services. AWS Cloud Practitioner certified.",
+  
+  pt: "Atuação com serviços de computação em nuvem e soluções serverless na AWS. Desenvolvimento de APIs e integração com serviços cognitivos. Certificação AWS Cloud Practitioner.",
+  
+  es: "Experiencia trabajando con servicios de computación en la nube y soluciones serverless en AWS. Desarrollo de APIs e integración con servicios cognitivos. Certificación AWS Cloud Practitioner."
+},
   volunteerInstructor: {
     en: "Volunteer Instructor",
     pt: "Instrutor Voluntário",
@@ -235,12 +225,13 @@ prefeituraDesc: {
     pt: "Cursos Universitários",
     es: "Cursos Universitarios"
   },
-  volunteerInstructorDesc: {
-    en: "Taught basic programming and algorithms to students from various higher education programs. Empowered over 60 students with foundational knowledge in algorithms and computational thinking.",
-    pt: "Ensinou programação básica e algoritmos a estudantes de vários programas de ensino superior. Capacitou mais de 60 alunos com conhecimentos fundamentais em algoritmos e pensamento computacional.",
-    es: "Enseñó programación básica y algoritmos a estudiantes de diversos programas de educación superior. Capacitó a más de 60 estudiantes con conocimientos fundamentales en algoritmos y pensamiento computacional."
-  },
-  // Certifications
+volunteerInstructorDesc: {
+  en: "Teaching programming logic and Python to beginner students. Development of communication and teaching skills.",
+  
+  pt: "Ensino de lógica de programação e Python para alunos iniciantes. Desenvolvimento de habilidades de comunicação e didática.",
+  
+  es: "Enseñanza de lógica de programación y Python para estudiantes principiantes. Desarrollo de habilidades de comunicación y didáctica."
+},  // Certifications
   awsCloudPractitioner: {
     en: "AWS Cloud Practitioner – Amazon Web Services (2024)",
     pt: "AWS Cloud Practitioner – Amazon Web Services (2024)",

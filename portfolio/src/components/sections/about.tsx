@@ -23,7 +23,7 @@ export function About() {
                 />
                 <AvatarFallback>JVS</AvatarFallback>
               </Avatar>
-              <h3 className="text-xl font-bold">João Vitor Fernandes de Sales</h3>
+              <h3 className="text-xl font-bold">João Sales</h3>
               <p className="text-muted-foreground mb-2">{t("title")}</p>
               <div className="space-y-2 mb-4">
                 <p>{t("degree")}</p>
