@@ -35,6 +35,24 @@ dunnasDesc: {
     pt: "Sobre Mim",
     es: "Sobre Mí"
   },
+
+viewCertificate: {
+  en: "View Certificate",
+  pt: "Ver Certificado",
+  es: "Ver Certificado"
+},
+
+viewRepository: {
+  en: "Source Code",
+  pt: "Código Fonte",
+  es: "Código Fuente"
+},
+
+previewVideo: {
+  en: "Preview Video",
+  pt: "Vídeo de Demonstração",
+  es: "Video de Demostración"
+},
 aboutText: {
   en: "Software Engineer with experience in developing full-stack web applications and AI integrations, working on real-world projects across public, academic, and financial sectors. Experienced in building systems using Node.js, React, and TypeScript, as well as working with automation, chatbots, and ETL tools. Familiar with agile environments (Scrum), focusing on delivering efficient, scalable solutions to real-world problems.",
   
@@ -226,11 +244,11 @@ compassUolDesc: {
     es: "Cursos Universitarios"
   },
 volunteerInstructorDesc: {
-  en: "Teaching programming logic and Python to beginner students. Development of communication and teaching skills.",
+  en: "Taught programming logic and Python to 20–30 beginner students, helping them build foundational problem-solving skills. Created and maintained a GitHub repository with structured learning materials to support students' learning and reinforce core computer science concepts. Developed strong communication, mentorship, and instructional skills.",
   
-  pt: "Ensino de lógica de programação e Python para alunos iniciantes. Desenvolvimento de habilidades de comunicação e didática.",
+  pt: "Ensinei lógica de programação e Python para 20–30 alunos iniciantes, auxiliando no desenvolvimento de habilidades fundamentais de resolução de problemas. Criei e mantive um repositório no GitHub com materiais estruturados para apoiar o aprendizado e reforçar conceitos básicos de computação. Desenvolvi habilidades de comunicação, mentoria e ensino.",
   
-  es: "Enseñanza de lógica de programación y Python para estudiantes principiantes. Desarrollo de habilidades de comunicación y didáctica."
+  es: "Enseñé lógica de programación y Python a 20–30 estudiantes principiantes, ayudándolos a desarrollar habilidades fundamentales de resolución de problemas. Creé y mantuve un repositorio en GitHub con materiales estructurados para apoyar el aprendizaje y reforzar conceptos básicos de computación. Desarrollé habilidades de comunicación, mentoría y enseñanza."
 },  // Certifications
   awsCloudPractitioner: {
     en: "AWS Cloud Practitioner – Amazon Web Services (2024)",
