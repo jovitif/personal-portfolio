@@ -1,32 +1,36 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "../language/language-provider";
+import { Button } from "../ui/button";
+import { ExternalLink, Github } from "lucide-react";
 
 export function Experience() {
   const { t } = useLanguage();
 
-  type Experience = {
-    title: string;
-    company: string;
-    period: string;
-    description: string;
-    certificateUrl?: string;
-    repoUrl?: string;
-    previewVideoUrl?: string;
-  };
-
+type Experience = {
+  title: string;
+  company: string;
+  period: string;
+  description: string;
+  image?: string;
+  certificateUrl?: string;
+  repoUrl?: string;
+  previewVideoUrl?: string;
+};
   const experiences: Experience[] = [
     {
   title: "fullStackJunior",
   company: "Dunnas",
   period: "current",
   description: "dunnasDesc",
+      image: "https://media.licdn.com/dms/image/v2/D4D0BAQGG_PyIEk0O0w/company-logo_200_200/B4DZfW8646GkAM-/0/1751657983926/evertecbr_logo?e=2147483647&v=beta&t=JfFBdoywSNX0CpLaIKF_RDkECICIDoaXw6XiaiGiGdo",
 },
     {
       title: "fullStackIntern",
       company: "prefeitura",
       period: "completed",
       description: "prefeituraDesc",
+      image: "https://media.licdn.com/dms/image/v2/D4D0BAQGG_PyIEk0O0w/company-logo_200_200/B4DZfW8646GkAM-/0/1751657983926/evertecbr_logo?e=2147483647&v=beta&t=JfFBdoywSNX0CpLaIKF_RDkECICIDoaXw6XiaiGiGdo",
     },
     {
       title: "researchScholarship",
@@ -58,7 +62,7 @@ export function Experience() {
 
 
 return (
-  <section id="experience" className="py-20">
+  <section id="experience" className="py-20 bg-muted/50">
     <div className="container">
       <h2 className="text-3xl font-bold mb-8">{t("experience")}</h2>
       <div className="space-y-6">
@@ -110,39 +114,33 @@ return (
 
                 <div className="mt-4 flex flex-wrap gap-3">
                   {exp.certificateUrl && (
+                    <Button asChild> 
                     <a
                       href={exp.certificateUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-xl bg-emerald-700 text-white transition-all duration-200 shadow-sm hover:shadow-md"
                     >
+                      <ExternalLink className="mr-2 h-4 w-4" />
                       {t("viewCertificate")}
                     </a>
+                    </Button> 
                   )}
 
                 {exp.repoUrl && (
-                  <a
-                    href={exp.repoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-xl bg-emerald-700 text-white transition-all duration-200 shadow-sm hover:shadow-md"
-                  >
-                    <span>💻</span>
-                    <span>{t("viewRepository")}</span>
-                  </a>
+                  <Button asChild >
+
+                    <a
+                      href={exp.repoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="mr-2 h-4 w-4" />
+                      {t("viewRepository")}
+                    </a>
+                  </Button>
                 )}                
           </div>
-
-                {exp.previewVideoUrl && (
-                  <div className="mt-4">
-                    <iframe
-                      src={exp.previewVideoUrl}
-                      title={t("previewVideo")}
-                      className="w-full h-64 rounded-lg"
-                      allowFullScreen
-                    />
-                  </div>
-                )}
               </CardContent>
             </Card>
           );
