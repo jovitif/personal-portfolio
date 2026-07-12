@@ -6,6 +6,8 @@ import { Skills } from "@/components/sections/skills";
 import { Experience } from "@/components/sections/experience";
 import { Certifications } from "@/components/sections/certifications";
 import { Contact } from "@/components/sections/contact";
+import { Projects } from "@/components/sections/projects";
+import { Hero } from "@/components/sections/hero";
 
 const Index = () => {
   return (
@@ -13,9 +15,10 @@ const Index = () => {
       <div className="min-h-screen">
         <Navbar />
         <main className="pt-16">
+          <Hero />
           <About />
-          <Skills />
           <Experience />
+          <Skills />
           <Certifications />
           <Contact />
         </main>

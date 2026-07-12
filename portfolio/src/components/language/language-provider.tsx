@@ -11,6 +11,52 @@ type Translations = {
 
 // Define all translations here
 const translations: Translations = {
+openGovInsightsDesc: {
+  en: "An open-source platform that centralizes, analyzes, and visualizes public government data, making transparency information more accessible through interactive dashboards and modern web technologies.",
+  pt: "Uma plataforma open source que centraliza, analisa e visualiza dados públicos governamentais, tornando as informações de transparência mais acessíveis por meio de dashboards interativos e tecnologias web modernas.",
+  es: "Una plataforma de código abierto que centraliza, analiza y visualiza datos públicos gubernamentales, haciendo que la información de transparencia sea más accesible mediante paneles interactivos y tecnologías web modernas."
+},
+potiSaudeDesc: {
+  en: "A healthcare management platform developed for a public university clinic to digitalize patient records and streamline clinical workflows. Created from the vision of a medical student, the system aims to improve patient management and automate processes that were previously handled manually.",
+  pt: "Uma plataforma de gestão em saúde desenvolvida para a clínica de uma universidade pública, com o objetivo de digitalizar prontuários e otimizar os fluxos clínicos. Criado a partir da iniciativa de um estudante de Medicina, o sistema busca melhorar o gerenciamento de pacientes e automatizar processos que antes eram realizados manualmente.",
+  es: "Una plataforma de gestión sanitaria desarrollada para la clínica de una universidad pública, con el objetivo de digitalizar historiales clínicos y optimizar los flujos de trabajo. Creada a partir de la iniciativa de un estudiante de Medicina, el sistema busca mejorar la gestión de pacientes y automatizar procesos que antes se realizaban de forma manual."
+},
+prefeituraEtlDesc: {
+  en: "A government-focused ETL platform designed to support the migration of legacy databases to modern data systems. The project provides an accessible and adaptable solution for data extraction, transformation, and loading, with the potential to leverage generative AI to automate and enhance transformation workflows.",
+  pt: "Uma plataforma de ETL voltada ao setor público, desenvolvida para apoiar a migração de bancos de dados legados para sistemas de dados modernos. O projeto oferece uma solução acessível e adaptável para extração, transformação e carregamento de dados, com potencial para utilizar IA generativa na automação e otimização dos processos de transformação.",
+  es: "Una plataforma ETL orientada al sector público, desarrollada para apoyar la migración de bases de datos heredadas hacia sistemas de datos modernos. El proyecto ofrece una solución accesible y adaptable para la extracción, transformación y carga de datos, con potencial para utilizar IA generativa en la automatización y optimización de los procesos de transformación."
+},
+octoFocusDesc: {
+  en: "An AI-powered platform that aggregates data from public service examination sources and transforms it into a personalized study experience. The project helps candidates discover relevant content, organize study materials, and prepare more efficiently through intelligent data processing.",
+  pt: "Uma plataforma com IA desenvolvida para coletar dados de diferentes fontes de concursos públicos e transformá-los em uma experiência de estudo personalizada. O projeto auxilia concurseiros a encontrar conteúdos relevantes, organizar materiais de estudo e se preparar de forma mais eficiente por meio do processamento inteligente de dados.",
+  es: "Una plataforma impulsada por IA diseñada para recopilar datos de diferentes fuentes de oposiciones y transformarlos en una experiencia de estudio personalizada. El proyecto ayuda a los candidatos a encontrar contenido relevante, organizar materiales de estudio y prepararse de manera más eficiente mediante el procesamiento inteligente de datos."
+},
+potiUpDesc: {
+  en: "A gamified habit-tracking platform designed to help users build and maintain healthy daily routines in an engaging and intuitive way. The project combines habit management, progress tracking, and supportive communities to encourage consistency and long-term personal growth.",
+  pt: "Uma plataforma de gamificação de hábitos desenvolvida para ajudar usuários a criar e manter rotinas diárias de forma leve e intuitiva. O projeto combina gerenciamento de hábitos, acompanhamento de progresso e comunidades de apoio para incentivar a consistência e o desenvolvimento pessoal a longo prazo.",
+  es: "Una plataforma de gamificación de hábitos diseñada para ayudar a los usuarios a crear y mantener rutinas diarias de forma sencilla e intuitiva. El proyecto combina la gestión de hábitos, el seguimiento del progreso y comunidades de apoyo para fomentar la constancia y el desarrollo personal a largo plazo."
+},
+languageWorldDesc: {
+  en: "A gamified language learning platform that uses interactive 3D environments to create immersive learning experiences. The project helps learners develop language skills through engaging scenarios, real-world interactions, and game-inspired progression.",
+  pt: "Uma plataforma gamificada de aprendizado de idiomas que utiliza ambientes 3D interativos para criar experiências imersivas de aprendizagem. O projeto ajuda estudantes a desenvolver habilidades linguísticas por meio de cenários envolventes, interações do mundo real e progressão inspirada em jogos.",
+  es: "Una plataforma gamificada de aprendizaje de idiomas que utiliza entornos 3D interactivos para crear experiencias de aprendizaje inmersivas. El proyecto ayuda a los estudiantes a desarrollar habilidades lingüísticas mediante escenarios atractivos, interacciones del mundo real y una progresión inspirada en los videojuegos."
+},
+  openSourceProject:{
+  en: "Open Source Project",
+  pt: "Projeto Open Source",
+  es: "Proyecto de Código Abierto"
+  },
+  corporateProject: {
+  en: "Corporate Project",
+  pt: "Projeto Coorporativo",
+  es: "Proyecto Corporativo"
+  },
+  
+  microsaasIdeas: {
+  en: "Micro-SaaS Ideas",
+  pt: "Ideias de Micro-SaaS",
+  es: "Ideas de Micro-SaaS"
+  },
     fullStackJunior: {
     en: "Full Stack Developer Junior",
     pt: "Desenvolvedor Full Stack Júnior",
@@ -33,13 +79,61 @@ dunnasDesc: {
     pt: "Sobre Mim",
     es: "Sobre Mí"
   },
-
+AcessUrl: {
+  en: "View Project",
+  pt: "Ver Projeto",
+  es: "Ver Proyecto"
+},
 viewCertificate: {
   en: "View Certificate",
   pt: "Ver Certificado",
   es: "Ver Certificado"
 },
 
+dataengineer: {
+  en: "Data Engineer",
+  pt: "Engenheiro de Dados",
+  es: "Ingeniero de Datos"
+},
+
+currentlyLearning: {
+  en: "Currently Learning",
+  pt: "Atualmente Aprendendo",
+  es: "Actualmente Aprendiendo"
+},
+cloudanddevops: {
+  en: "Cloud & DevOps",
+  pt: "Nuvem e DevOps",
+  es: "Nube y DevOps",
+},
+
+backendandintegration: {
+  en: "Backend & Integration",
+  pt: "Backend e Integração",
+  es: "Backend e Integración",
+},
+
+systemintegration:{
+  en: "System Integration",
+  pt: "Integração de Sistemas",
+  es: "Integración de Sistemas"
+},
+
+workflowautomation: {
+  en: "Workflow Automation",
+  pt: "Automação de Fluxos de Trabalho",
+  es: "Automatización de Flujos de Trabajo"
+},
+dataintegration:{
+  en: "Data Integration",
+  pt: "Integração de Dados",
+  es: "Integración de Datos",
+},
+datamigration:{
+  en:"Data Migration",
+  pt: "Migração de Dados",
+  es: "Migración de Datos",
+},
 viewRepository: {
   en: "Source Code",
   pt: "Código Fonte",
@@ -52,19 +146,19 @@ previewVideo: {
   es: "Video de Demostración"
 },
 aboutText: {
-  en: "Software Engineer with experience in backend and full-stack development, data integration, and enterprise software solutions. Worked on real-world projects across public, academic, and financial sectors, developing business applications, ETL platforms, automation workflows, AI-assisted systems, and database-driven solutions. Experienced with Java, Ruby on Rails, Python, SQL, React, cloud technologies, and system integrations. Strong background in APIs, data processing, automation, and scalable software development. Experienced in agile environments (Scrum) and focused on building reliable, maintainable, and business-oriented solutions.",
-  pt: "Engenheiro de Software com experiência em desenvolvimento backend e full-stack, integração de dados e soluções de software corporativo. Atuou em projetos reais nos setores público, acadêmico e financeiro, desenvolvendo aplicações empresariais, plataformas ETL, fluxos de automação, sistemas assistidos por IA e soluções orientadas a banco de dados. Experiência com Java, Ruby on Rails, Python, SQL, React, tecnologias em nuvem e integrações de sistemas. Forte conhecimento em APIs, processamento de dados, automação e desenvolvimento de software escalável. Experiência em ambientes ágeis (Scrum) e foco na construção de soluções confiáveis, manuteníveis e orientadas a negócios.",
-  es: "Ingeniero de Software con experiencia en desarrollo backend y full-stack, integración de datos y soluciones de software empresarial. Ha trabajado en proyectos reales en los sectores público, académico y financiero, desarrollando aplicaciones empresariales, plataformas ETL, flujos de automatización, sistemas asistidos por IA y soluciones orientadas a bases de datos. Experiencia con Java, Ruby on Rails, Python, SQL, React, tecnologías en la nube e integraciones de sistemas. Sólida experiencia en APIs, procesamiento de datos, automatización y desarrollo de software escalable. Experiencia en entornos ágiles (Scrum) y enfoque en la construcción de soluciones confiables, mantenibles y orientadas al negocio."
-},
-title: {
-  en: "Software Engineer | Backend Development | Data Integration | ETL",
-  pt: "Engenheiro de Software | Desenvolvimento Backend | Integração de Dados | ETL",
-  es: "Ingeniero de Software | Desarrollo Backend | Integración de Datos | ETL"
+  en: "Data Engineer with a strong software engineering background, specializing in ETL pipelines, data integration, and Python backend development. I develop scalable data solutions, automate workflows, and build reliable APIs using Python, SQL, PostgreSQL, SQL Server, and AWS. Passionate about solving complex data challenges and creating efficient systems that transform raw data into valuable business insights.",
+  pt: "Engenheiro de Dados com sólida experiência em engenharia de software, especializado em pipelines ETL, integração de dados e desenvolvimento backend em Python. Desenvolvo soluções de dados escaláveis, automatizo fluxos de trabalho e construo APIs confiáveis utilizando Python, SQL, PostgreSQL, SQL Server e AWS. Apaixonado por resolver desafios complexos de dados e criar sistemas eficientes que transformam dados brutos em insights valiosos para os negócios.",
+  es: "Ingeniero de Datos con sólida experiencia en ingeniería de software, especializado en pipelines ETL, integración de datos y desarrollo backend en Python. Desarrollo soluciones de datos escalables, automatizo flujos de trabajo y construyo APIs confiables utilizando Python, SQL, PostgreSQL, SQL Server y AWS. Apasionado por resolver desafíos complejos de datos y crear sistemas eficientes que transforman datos brutos en valiosos insights para los negocios."
 },
 degree: {
   en: "B.Sc. in Computer Science",
   pt: "Bacharel em Ciência da Computação",
   es: "Grado en Ciencias de la Computación"
+},
+descricao:{
+  en: "Building scalable web applications, data pipelines and AI-powered \n integrations using modern technologies.",
+  pt: "Construindo aplicações web escaláveis, pipelines de dados e \n integrações com IA utilizando tecnologias modernas.",
+  es: "Construyendo aplicaciones web escalables, pipelines de datos e \n integraciones con IA utilizando tecnologías modernas."
 },
   location: {
     en: "Brazil | Open to Remote Work",
@@ -72,9 +166,9 @@ degree: {
     es: "Brasil | Disponible para oportunidades remotas"
   },
   downloadResume: {
-    en: "Download Resume",
-    pt: "Baixar Currículo",
-    es: "Descargar Currículum"
+    en: "Resume",
+    pt: "Currículo",
+    es: "Currículum"
   },
   // Common sections
   skills: {
@@ -87,6 +181,11 @@ degree: {
     pt: "Experiência",
     es: "Experiencia"
   },
+  project: {
+    en: "Projects",
+    pt: "Projetos",
+    es: "Proyectos"
+  },
   certifications: {
     en: "Certifications",
     pt: "Certificações",
@@ -96,6 +195,11 @@ degree: {
     en: "Contact",
     pt: "Contato",
     es: "Contacto"
+  },
+  title:{
+    en: "Software & Data Engineer",
+    pt: "Engenheiro de Software e Dados",
+    es: "Ingeniero de Software y Datos"
   },
   // Skill levels
   advanced: {
@@ -107,9 +211,7 @@ degree: {
     en: "Intermediate",
     pt: "Intermediário",
     es: "Intermedio"
-  },
-  // Experience
-  
+  },  
   fullStackIntern: {
     en: "Full Stack Developer Intern",
     pt: "Estagiário Desenvolvedor Full Stack",
@@ -182,11 +284,9 @@ tools: {
     es: "Proyecto Higia Way"
   },
 higiaWayDesc: {
-  en: "Development of a chatbot for a healthcare application using Node.js, React.js, and n8n. Implementation of automations and integrations to enhance system intelligence. Maintenance and bug fixing in web applications.",
-  
-  pt: "Desenvolvimento de chatbot para aplicação de saúde utilizando Node.js, React.js e n8n. Implementação de automações e integrações para aprimorar a inteligência do sistema. Manutenção e correção de bugs em aplicações web.",
-  
-  es: "Desarrollo de un chatbot para una aplicación de salud utilizando Node.js, React.js y n8n. Implementación de automatizaciones e integraciones para mejorar la inteligencia del sistema. Mantenimiento y corrección de errores en aplicaciones web."
+  en: "An AI-powered chatbot developed to support pregnant women by answering everyday questions and providing accessible health-related guidance. In addition to developing new features, the project also involved maintaining and correcting existing modules to improve stability, reliability, and overall system functionality.",
+  pt: "Um chatbot com IA desenvolvido para auxiliar gestantes no dia a dia, respondendo dúvidas e fornecendo orientações acessíveis sobre temas relacionados à gestação. Além do desenvolvimento de novas funcionalidades, o projeto também envolveu a correção e manutenção de módulos existentes para garantir maior estabilidade, confiabilidade e o funcionamento adequado do sistema.",
+  es: "Un chatbot impulsado por IA desarrollado para apoyar a mujeres embarazadas, respondiendo preguntas cotidianas y proporcionando orientación accesible sobre temas relacionados con el embarazo. Además del desarrollo de nuevas funcionalidades, el proyecto también incluyó la corrección y el mantenimiento de módulos existentes para garantizar una mayor estabilidad, confiabilidad y el correcto funcionamiento del sistema."
 },
   volunteerDeveloper: {
     en: "Volunteer Developer",
@@ -197,6 +297,11 @@ higiaWayDesc: {
     en: "Language Learning AI App",
     pt: "App de IA para Aprendizado de Idiomas",
     es: "Aplicación de IA para Aprendizaje de Idiomas"
+  },
+  current:{
+    en: "Current",
+    pt: "Atual",
+    es: "Actual"
   },
   completed: {
     en: "Completed",
