@@ -74,7 +74,7 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
             <Button size="lg" asChild>
-              <a href="/resume.pdf" download>
+              <a href="/Resume_SD_Joao.pdf" download>
                 <Download className="mr-2 h-4 w-4" />
                 {t("downloadResume")}
               </a>
@@ -116,7 +116,7 @@ export function Hero() {
 
             <Button variant="ghost" size="icon" asChild>
               <a
-                href="https://youtube.com/@SEU_CANAL"
+                href="https://www.youtube.com/@joaofdsales"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -126,7 +126,7 @@ export function Hero() {
 
             <Button variant="ghost" size="icon" asChild>
               <a
-                href="https://www.upwork.com/freelancers/SEU_ID"
+                href="https://www.upwork.com/freelancers/~01d13af0fd2ff3c748?mp_source=share"
                 target="_blank"
                 rel="noopener noreferrer"
               >
