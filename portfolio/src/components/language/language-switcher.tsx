@@ -10,9 +10,9 @@ import { Globe } from "lucide-react";
 import { useLanguage } from "./language-provider";
 
 const languages = [
-  { code: "en", name: "English" },
-  { code: "pt", name: "Português" },
-  { code: "es", name: "Español" },
+  { code: "en", name: "English", flag: "🇬🇧" },
+  { code: "pt", name: "Português", flag: "🇧🇷" },
+  { code: "es", name: "Español", flag: "🇪🇸" },
 ];
 
 export function LanguageSwitcher() {
@@ -32,6 +32,7 @@ export function LanguageSwitcher() {
             className={language === lang.code ? "bg-accent" : ""}
             onClick={() => setLanguage(lang.code as "en" | "pt" | "es")}
           >
+            <span className="mr-2 text-lg">{lang.flag}</span>
             {lang.name}
           </DropdownMenuItem>
         ))}
