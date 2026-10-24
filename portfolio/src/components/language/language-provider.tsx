@@ -394,6 +394,26 @@ volunteerInstructorDesc: {
     en: "Connect with me",
     pt: "Conecte-se comigo",
     es: "Conéctate conmigo"
+  },
+  personalProjects: {
+    en: "Personal Projects",
+    pt: "Projetos Pessoais",
+    es: "Proyectos Personales"
+  },
+  octofocusTitle: {
+    en: "OctoFocus",
+    pt: "OctoFocus",
+    es: "OctoFocus"
+  },
+  octofocusDesc: {
+    en: "OctoFocus is an intelligent platform that centralizes academic and professional opportunities, such as scholarships, courses, competitions, and internships, offering personalized recommendations and organization tools to boost users' personal and professional development.",
+    pt: "OctoFocus é uma plataforma inteligente que centraliza oportunidades acadêmicas e profissionais, como bolsas de estudo, cursos, concursos e estágios, oferecendo recomendações personalizadas e ferramentas de organização para impulsionar o desenvolvimento pessoal e profissional dos usuários.",
+    es: "OctoFocus es una plataforma inteligente que centraliza oportunidades académicas y profesionales, como becas, cursos, concursos y pasantías, ofreciendo recomendaciones personalizadas y herramientas de organización para impulsar el desarrollo personal y profesional de los usuarios."
+  },
+  personalProject: {
+    en: "Personal Project",
+    pt: "Projeto Pessoal",
+    es: "Proyecto Personal"
   }
 };
 
