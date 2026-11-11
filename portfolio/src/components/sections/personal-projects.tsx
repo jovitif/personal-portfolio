@@ -20,7 +20,7 @@ export function PersonalProjects() {
       company: "personalProject",
       description: "octofocusDesc",
       image: "/octofocus.png",
-      acessUrl: "https://octofocus-front.vercel.app/login",
+      acessUrl: "https://octofocusai.vercel.app/",
     },
   ];
 
